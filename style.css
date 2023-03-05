@@ -1,0 +1,105 @@
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+form label {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+form input[type=text] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    width: 200px;
+}
+
+form button[type=submit] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Current weather styles */
+#currentWeather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#currentWeather img {
+    width: 100px;
+    height: 100px;
+}
+
+#currentWeather p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Forecast styles */
+#forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#forecast .col {
+    margin: 10px;
+}
+
+#forecast .card {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#forecast .card-body {
+    text-align: center;
+}
+
+#forecast .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#forecast img {
+    width: 50px;
+    height: 50px;
+}
+
+#forecast p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
